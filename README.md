@@ -6,7 +6,6 @@
 2) Open console (Ctrl + Shift + J)
 3) Insert commands & run
 
-Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for 12 hours ("ban" cookie is set).
 
 ```
 console.log("%c Bot started. Please clear your cookies if you've been barked as a bot (red eyes popcat). ", "background: #050; color: #0f0");
@@ -21,6 +20,8 @@ setInterval(function(){
 	}
 }, 0);
 ```
+Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for 12 hours ("ban" cookie is set).
+
 
 ###### Ban proof version
 ```
