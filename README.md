@@ -25,6 +25,13 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
 
 #### Ban proof version
 ```
+function setCookie(cName, cValue, expDays) {
+    var date = new Date();
+    date.setTime(date.getTime() + (expDays*24*60*60*1000));
+    var expires = "expires="+ date.toUTCString();
+    document.cookie = cName + "=" + cValue + ";" + expires + ";path=/";
+}
+
 (()=>{    
     console.clear()
 
@@ -55,9 +62,11 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
             console.log(`[${new Date().toLocaleTimeString()}] %c800 pops sent (Total: ${total})`, "color: #0f0");
 			// Open and close cat's mount
             vue.open = true;
+            vue.counter += 800;
             setTimeout(()=>{
                 vue.open = false;
             }, 1000);
+            setCookie("pop_count", vue.counter, 365)
         }
         // Set 800 pops
         vue.accumulator = 800;
@@ -65,4 +74,3 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
 
     console.log("%c Bot started. Waiting for the first request being sent. ", "background: #050; color: #0f0");
 })();
-```
