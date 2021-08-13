@@ -19,7 +19,9 @@ setInterval(function(){
 	}
 }, 0);
 ```
+
 ###### Ban proof version
+```
 console.log("%c Bot started - Ban proof version. ", "background: #050; color: #0f0");
 var event = new KeyboardEvent('keydown', {
 	key: 'g',
