@@ -4,7 +4,7 @@
 ## HOW TO USE
 1) Open https://popcat.click
 2) Open console (Ctrl + Shift + J)
-3) Insert command & run
+3) Insert commands & run
 
 ```
 var event = new KeyboardEvent('keydown', {
