@@ -11,8 +11,7 @@ var event = new KeyboardEvent('keydown', {
 	key: 'g',
 	ctrlKey: true
 });
-(()=>{    
-    console.clear()
+
 setInterval(function(){
 	for (i = 0; i < 100; i++) {
 		document.dispatchEvent(event);
@@ -25,8 +24,7 @@ var event = new KeyboardEvent('keydown', {
 	key: 'g',
 	ctrlKey: true
 });
-(()=>{    
-    console.clear()
+
 setInterval(function(){
 	for (i = 0; i < 25; i++) {
 		document.dispatchEvent(event);
