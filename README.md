@@ -19,3 +19,17 @@ setInterval(function(){
 	}
 }, 0);
 ```
+###### Ban proof version
+```
+var event = new KeyboardEvent('keydown', {
+	key: 'g',
+	ctrlKey: true
+});
+(()=>{    
+    console.clear()
+setInterval(function(){
+	for (i = 0; i < 25; i++) {
+		document.dispatchEvent(event);
+	}
+}, 1000);
+```
