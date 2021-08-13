@@ -32,7 +32,7 @@ var event = new KeyboardEvent('keydown', {
 });
 
 setInterval(function(){
-	for (i = 0; i < 25; i++) {
+	for (i = 0; i < 26; i++) {
 		document.dispatchEvent(event);
 	}
 }, 1000);
