@@ -51,7 +51,7 @@ This bot addresses this issue and will NOT get you banned.
             setTimeout(()=>{
                 vue.open = false;
             }, 1000);
-	    setCookie("counter", vue.counter, 365)
+	    setCookie("counter", vue.counter, 365);
         }
         // Set 800 pops
         vue.accumulator = 800;
