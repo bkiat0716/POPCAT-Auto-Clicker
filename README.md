@@ -1,5 +1,6 @@
 # POPCAT-Auto-Clicker
 
+![me](https://c.tenor.com/NkAegm0IP8IAAAAC/popcat.gif)
 ## HOW TO USE
 1) Open https://popcat.click
 2) Open console (Ctrl + Shift + J)
