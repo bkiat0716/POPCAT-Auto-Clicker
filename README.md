@@ -7,6 +7,7 @@
 3) Insert commands & run
 
 ```
+console.log("%c Bot started. Please clear your cookies if you've been barked as a bot (red eyes popcat). ", "background: #050; color: #0f0");
 var event = new KeyboardEvent('keydown', {
 	key: 'g',
 	ctrlKey: true
@@ -19,7 +20,7 @@ setInterval(function(){
 }, 0);
 ```
 ###### Ban proof version
-```
+console.log("%c Bot started - Ban proof version. ", "background: #050; color: #0f0");
 var event = new KeyboardEvent('keydown', {
 	key: 'g',
 	ctrlKey: true
