@@ -1,6 +1,6 @@
 # POPCAT-Auto-Clicker
 
-##HOW TO USE
+## HOW TO USE
 1) Open https://popcat.click
 2) Open console (Ctrl + Shift + J)
 3) Insert command & run
