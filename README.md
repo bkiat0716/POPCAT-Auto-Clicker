@@ -23,7 +23,7 @@ setInterval(function(){
 Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for 12 hours ("ban" cookie is set).
 
 
-###### Ban proof version
+#### Ban proof version
 ```
 console.log("%c Bot started - Ban proof version. ", "background: #050; color: #0f0");
 var event = new KeyboardEvent('keydown', {
