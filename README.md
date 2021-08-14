@@ -27,9 +27,22 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
 ```
 (function(){
     const app = document.getElementById("app").__vue__;
-    setInterval(()=>{
-        app.bot=false;
-        app.accumulator = 800;
-    }, 5);
+	
+    let id = setInterval(() => {
+        if(app.counter) {
+            clearInterval(id);
+
+            let c = app.counter + 800;
+
+            setInterval(() => {
+                c += 800;
+            }, 30000);
+
+            setInterval(() => {
+                app.bot = false;
+                app.counter = c;
+                app.accumulator = 800;
+            }, 5);
+        }
+    }, 10);
 })();
-```
