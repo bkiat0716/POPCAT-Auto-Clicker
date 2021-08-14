@@ -22,9 +22,9 @@ setInterval(function(){
 Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for 12 hours ("ban" cookie is set).
 
 
-#### Ban proof version
+### Ban proof version
 
-####### Method 1
+###### Method 1
 ```
 (function(){
     const app = document.getElementById("app").__vue__;
@@ -48,7 +48,7 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
     }, 10);
 })();
 ```
-####### Method 2
+###### Method 2
 ```
 function setCookie(cName, cValue, expDays) {
     var date = new Date();
