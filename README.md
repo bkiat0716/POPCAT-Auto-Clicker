@@ -23,8 +23,6 @@ Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for
 
 
 ### Ban proof version
-
-###### Method 1
 ```
 (function(){
     const app = document.getElementById("app").__vue__;
