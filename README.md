@@ -19,7 +19,7 @@ setInterval(function(){
 	}
 }, 0);
 ```
-Note: If you'll send 800 or more clicks 10 times in a row, you'll get banned for 12 hours ("ban" cookie is set).
+Note: 红眼猫出现后，需要清除cookies,然后再重复以上步骤。
 
 
 ### Ban proof version
