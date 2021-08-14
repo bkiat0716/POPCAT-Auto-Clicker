@@ -19,7 +19,7 @@ setInterval(function(){
 	}
 }, 0);
 ```
-Note: 红眼猫出现后，需要清除cookies,然后再重复以上步骤。
+Note: 红眼猫出现后，需要清除cookies，然后再重复以上步骤。
 
 
 ### Ban proof version
