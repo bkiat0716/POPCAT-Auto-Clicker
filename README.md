@@ -8,7 +8,6 @@
 
 
 ```
-console.log("%c Bot started. Please clear your cookies if you've been barked as a bot (red eyes popcat). ", "background: #050; color: #0f0");
 var event = new KeyboardEvent('keydown', {
 	key: 'g',
 	ctrlKey: true
